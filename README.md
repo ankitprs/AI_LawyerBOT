@@ -57,6 +57,7 @@ In future updates, we plan to introduce the following features:
 
 Here are a few situations showcasing how you can use the Indian Layer Chatbot:
 
+[![Video 1](./docs/ss2.png)](./docs/hackathonVideo.mp4)
 ![Screenshot 1](./docs/ss2.png)
 ![Screenshot 2](./docs/ss1.png)
 
