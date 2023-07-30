@@ -1,25 +1,27 @@
-# Textbase
+# Indian Layer Chatbot
 
-✨ Textbase is a framework for building chatbots using NLP and ML. ✨
 
-Just implement the `on_message` function in `main.py` and Textbase will take care of the rest :)
+The Indian Layer Chatbot is an AI-powered conversational agent developed using the OpenAI API. This chatbot is designed to engage in natural language conversations with users, providing information, answering questions, and assisting with various tasks.
 
-Since it is just Python you can use whatever models, libraries, vector databases and APIs you want.
+## Features
 
-_Coming soon:_
+- **Natural Language Processing**: The chatbot utilizes OpenAI's advanced natural language processing capabilities to understand and respond to user inputs effectively.
 
-- [ ] PyPI package
-- [ ] SMS integration
-- [ ] Easy web deployment via `textbase deploy`
-- [ ] Native integration of other models (Claude, Llama, ...)
+- **Contextual Understanding**: It can maintain context throughout a conversation, allowing for more coherent and relevant responses.
+
+- **Customizable**: The chatbot can be easily tailored to specific use cases or industries by fine-tuning its underlying language model.
+
+- **Multi-lingual Support**: While primarily designed to understand and respond in English, the chatbot can also be adapted to other Indian languages.
+
+- **Extensible**: Developers can extend the chatbot's capabilities by integrating additional APIs and services.
 
 ## Installation
 
 Clone the repository and install the dependencies using [Poetry](https://python-poetry.org/) (you might have to [install Poetry](https://python-poetry.org/docs/#installation) first).
 
 ```bash
-git clone https://github.com/cofactoryai/textbase
-cd textbase
+git clone https://github.com/ankitprs/AI_LawyerBOT.git
+cd AI_LawyerBOT
 poetry install
 ```
 
@@ -37,6 +39,34 @@ Now go to [http://localhost:4000](http://localhost:4000) and start chatting with
 
 _Simpler version using PyPI package and CLI coming soon!_
 
-## Contributions
 
-Contributions are welcome! Please open an issue or a pull request.
+
+## How to Use
+
+To interact with the chatbot, briefly describe your situation or question. The chatbot will process your input and respond accordingly. For example:
+
+
+
+## Future Updates
+
+In future updates, we plan to introduce the following features:
+
+- **Image Upload Feature**: Users will be able to upload images, such as case files, and the AI will be able to scan and analyze the content to provide even better assistance.
+
+## Screenshots
+
+Here are a few situations showcasing how you can use the Indian Layer Chatbot:
+
+![Screenshot 1](./docs/ss2.png)
+![Screenshot 2](./docs/ss1.png)
+
+
+
+## Contributing
+
+Contributions to the Indian Layer Chatbot are welcome! If you find any bugs, have feature requests, or want to contribute improvements, please feel free to submit issues and pull requests.
+
+## License
+
+The Indian Layer Chatbot is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+
